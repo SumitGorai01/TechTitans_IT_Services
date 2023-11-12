@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header nav{
+  
+    background-color: rgb(42, 165, 110);
+    font-weight: bold;
+}
+#header a img{
+    justify-content: center;
+    margin-left: 55px;
+    padding-left: auto;
+}
+/* section */
+section{
+    width: 100%;
+}
+section>div{
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn :hover{
+    background: transparent;
+    color: rgb(43, 226, 195);
+}
+.btn btn-primaryTransparent{
+    background: transparent;
+    border: 2px solid red;
+}
+.iconLeft{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading h1{
+    font-size: 40px;
+    color: green ;
+}
+.heading p{
+    color:rgb(111, 35, 77);
+    text-align: center;
+}
+a{
+    text-decoration:dotted;
+}
+@media only screen and (max-width: 768px){
+    section>div{
+        width: 90%;    
+
+    }
+    .heading h1{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,21 @@
+footer section i{
+    margin: 0;
+    padding-top:10px;
+    padding-bottom:10px;
+   border: radius 25px;
+   color: rgb(0, 0, 0);
+   font-size: 200%;
+   /* background-color: rgb(87, 190, 47); */
+}
+footer section i:hover{
+    font-size: 200%;
+   border: radius 100%;
+   font-size: 150%;
+   color: blueviolet;
+   background-color: rgb(87, 190, 47);
+}
+#Copyright{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
