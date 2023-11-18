@@ -4,13 +4,23 @@
 }
 #header nav{
   
-    background-color: rgb(42, 165, 110);
+    background-color: rgb(48, 63, 164);
     font-weight: bold;
+    
 }
+#header {
+    position: fixed;
+    top: 0;
+	z-index: 10;
+}
+/* nav div ul li : hover{
+    backgroud
+} */
 #header a img{
     justify-content: center;
     margin-left: 55px;
-    padding-left: auto;
+    margin-right: 50px;
+    /* padding-left: auto; */
 }
 /* section */
 section{
@@ -55,6 +65,29 @@ section>div{
 a{
     text-decoration:dotted;
 }
+#phone{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    float: right;
+    /* margin-left: 300px; */
+    background-color: aliceblue;
+    color: rgb(30, 0, 128);
+    padding-left: 10px;
+    border-radius: 25px;
+  
+}
+#phone span{
+    padding-top: 10px;
+}
+#phone a{
+    color: green;
+}
+.totopnav-right{
+    float: right;
+}
+
 @media only screen and (max-width: 768px){
     section>div{
         width: 90%;    
@@ -63,4 +96,14 @@ a{
     .heading h1{
         font-size: 50px;
     }
+	
+	
 }
+@media (max-width: 600px) {
+	#phone {
+	  display: none;
+	}
+  }
+/* testinomial */
+
+/* testinomial */
