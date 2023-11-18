@@ -2,20 +2,15 @@
     margin: 0;
     padding: 0;
 }
-#header nav{
-  
+#header nav{  
     background-color: rgb(48, 63, 164);
     font-weight: bold;
-    
 }
 #header {
     position: fixed;
     top: 0;
 	z-index: 10;
 }
-/* nav div ul li : hover{
-    backgroud
-} */
 #header a img{
     justify-content: center;
     margin-left: 55px;
@@ -90,20 +85,14 @@ a{
 
 @media only screen and (max-width: 768px){
     section>div{
-        width: 90%;    
-
+        width: 90%;  
     }
     .heading h1{
         font-size: 50px;
-    }
-	
-	
+    }	
 }
 @media (max-width: 600px) {
 	#phone {
 	  display: none;
 	}
-  }
-/* testinomial */
-
-/* testinomial */
+}
