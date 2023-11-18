@@ -12,7 +12,7 @@
     bottom: 0px;
     left: 0px;
     right: 0px;
-    /* background-image: url('image/bgPage.jpg'); */
+    background-image: url('image/bgPage.jpg');
     background-size: cover;
     opacity: 0.1;
     
@@ -25,11 +25,13 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(143, 247, 212, 0.927);
-    /* background-image: url('image/bgPage.jpg'); */
+    color: white;
+    /* background-color: rgba(255, 255, 255, 0.927); */
+    background-image: url('image/bgPage.jpg');
 
     }
 #home1 *{
+    /* padding-top: 5px; */
     z-index: 1;
 
 }
@@ -136,7 +138,7 @@
 }
 /* techtitans it service css */
 .title a{
-    text-shadow: 12px 5px 0px rgb(17, 232, 46);
+    text-shadow: 5px 2px 4px rgb(0, 255, 34);
 
 }
 
@@ -308,7 +310,7 @@
 /* css for contact section */
 #contact{
     padding: 30px 0;
-    background: rgb(235, 231, 238) ;
+    background: rgb(206, 172, 235) ;
 }
 
 .contactDiv{
@@ -411,6 +413,9 @@
     
         left: 20%;
        
+      }
+      #Copyright{
+        font-size: 12px;
       }
 
 }
